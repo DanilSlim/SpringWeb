@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <h3> Upload File Form </h3>
+<br/>
+<form th:action="@{/spitters/upload}" enctype="multipart/form-data" th:method="POST" >
+          Upload File: <INPUT type="file" name="user-file">
+           <INPUT type="submit" value="Upload File">
+</form>
+</body>
+</html>
